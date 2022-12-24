@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Patua+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F2937;
+}
+
+#logo {
+    width: 130px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.opt {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-content: center;
+    padding: 10px;
+}
+
+.mid_sec {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid_secs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdt_img {
+    width: 450px;
+    height: auto;
+    margin: 50px;
+    border-radius: 5em;
+}
+
+/*basis styling*/
+
+.hero {
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.hero a {
+    color: white;
+}
+
+a:hover {
+    color: wheat;
+}
+
+.mid_secs h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    padding: 1px;
+    font-family: Bebas Neue;
+}
+
+.mid_secs p {
+    font-size: 20px;
+    opacity: 0.7;
+    text-align: center;
+    padding: 0 50px;
+    margin: 10px;
+    color: white;
+    font-family: Patua One;
+}
+
+button {
+    font-size: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #1d69bf;
+    color: white;
+    font-family: Patua One;
+}
+
+.section_b {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: white;
+    padding: 10px;
+}
+
+.sub_b {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.sub_b img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.sub_head h2 {
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Bebas Neue;
+}
+
+.display_a,
+.display_b,
+.display_c,
+.display_d {
+
+    margin: 0 20px;
+    padding: 6px;
+    box-shadow: -2px 5px 5px rgb(104, 212, 255);
+    border-radius: 10px
+}
+
+.display_a p,
+.display_b p,
+.display_c p,
+.display_d p {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Patua One;
+}
+
+
+.section_c {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 6em;
+}
+
+#sect_c {
+    background: #E7E5EB;
+}
+
+.sub_one p {
+    font-size: 25px;
+    margin: 0 120px;
+    padding: 10px;
+    font-family: Patua One;
+    font-style: italic;
+}
+
+.sub_two {
+    margin-left: auto;
+    margin-right: 5em;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Bebas Neue;
+}
+
+.section_d {
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 6em;
+    flex-direction: row;
+}
+
+.grp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    background: #3882f6;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.tik_dash {
+    color: white;
+    padding: 20px 4em;
+}
+
+.click_dash button {
+    background: #3882f6;
+    border: 2px solid wheat;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3em;
+}
+
+.end_ctn {
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 1em;
+}
